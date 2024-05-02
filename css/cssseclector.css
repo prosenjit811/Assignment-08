@@ -1,0 +1,59 @@
+body{
+	font-family: roboto;
+}
+
+#header{
+	background-color: black;
+	color: yellow;
+}
+
+h4{
+	color: red;
+	background-color: yellow;
+}
+
+p.testtext{
+	color: #458634;
+	background-color: yellow;
+}
+
+h5, h6{
+	background-color: black;
+	color: white;
+}
+
+div h3{
+	color: red;
+}
+
+div> h3{
+
+	color: green;
+}
+
+div + h3{
+	background-color: greenyellow;
+}
+h3 ~ i{
+	background-color: pink;
+}
+
+a[target] {
+	background-color: orangered;
+	color: white;
+}
+
+[title~="marketing"] {
+	width: 20%;
+	height: 40%;
+	border: 5px solid red;
+}
+p[class^="test"] {
+	color: hotpink;
+}
+a:active{
+	background-color: green;
+}
+a:hover{
+	color: red;
+}
